@@ -1,0 +1,19 @@
+.first_container {
+    height:100vh;
+
+        & .main_content {
+            height:80%;
+        }
+
+        & .Date {
+            gap:300px;
+            position:relative;
+        }
+
+        & .startDate {
+            position:absolute;
+            content:"1:00 PM";
+            left:50px;
+            bottom:210px;
+        }
+}
